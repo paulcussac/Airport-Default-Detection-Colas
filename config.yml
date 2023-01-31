@@ -1,0 +1,23 @@
+ROOT_DIR_PATH : "/Users/arsenetripard/Documents/colas-deep-learning"
+
+####### Image Extraction #######
+
+# path to BDD_CARTO folder. It should end with BDD_CARTO
+bdd_carto_filepath : "/Users/arsenetripard/Downloads/BDD_CARTO"
+
+
+
+####### Modelling #######
+
+# Hugging Face pre-trained model 
+model : "google/vit-base-patch16-224"
+
+# Validation set size
+val_size : .2
+
+# Hugging Face authorization token
+use_auth_token : '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'
+
+# Training variables
+batch_size : 4
+num_epochs : 4
